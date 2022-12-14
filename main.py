@@ -4,10 +4,10 @@ import discord, time, openai
 
 
 #extras:
-TOKEN = "MTAxMzUwOTY2MDI4MTY4ODEyNQ.GySGLs.CW-u_wU9uTKGu9OP_qs7l51DafyORZ8aMaEqP0"
+TOKEN = ""
 client = discord.Client()
 #openai setup
-openai.api_key = "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"
+openai.api_key = ""
 completion = openai.Completion()
 
 
